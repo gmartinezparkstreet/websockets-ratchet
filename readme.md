@@ -34,6 +34,8 @@ This interface defines the basic methods that a class must implement to interact
 
 > We added some changes to the **onMessage** and **onOpen** methods so we can store/filter the **crmIds** that are going to recieve updates/messages when needed. You can see the details in [WebSocketServerService](/app/Providers/WebSocketServerService.php)
 
+[Video with small explanation here](https://www.loom.com/share/86ed2f316ee54cc3b5ef5253216f73be)
+
 ## WampServerInterface
 
 The WampServerInterface (WAMP Web Application Messaging Protocol) is an interface provided by the Ratchet library . It's a protocol that provides two application messaging patterns in one unified protocol: Remote Procedure Calls (RPC) and Publish & Subscribe (PubSub).
