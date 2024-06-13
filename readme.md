@@ -1,11 +1,18 @@
-# Run Server
+# Run laravel Server
 
-```php -S localhost:8000 -t public```
+```
+php -S localhost:8000 -t public
+```
 
 ## Available routes
 
 - **/websocketclient** UI of the client that recieves the messages
 - **/messagetoclient** UI to send messages to a client by ID
+
+# Run WebSockets server
+```
+php WebSocketSecureServer.php
+```
 
 ## WebSocketServer
 
